@@ -2,7 +2,7 @@
 
 /**
  *_isalpha - check if it character
- *@: parameter
+ *@c: parameter
  *Return: return 0 or 1
  */
 int _isalpha(int c)
