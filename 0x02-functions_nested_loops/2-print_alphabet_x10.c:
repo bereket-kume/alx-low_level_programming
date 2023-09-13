@@ -1,0 +1,3 @@
+lphabet_x10.c:18:1: error: expected declaration or statement at end of input
+   18 | }
+      | ^
