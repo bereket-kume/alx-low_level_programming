@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_abs - give us absoulte value of number
- *@n: value passed as parameter
+ *@i: value passed as parameter
  *Return: Always 0
  */
 int _abs(int i)
