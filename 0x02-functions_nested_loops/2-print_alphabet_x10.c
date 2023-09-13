@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *function: to print alphabet
+ *print_alphabet_x10 - print alphabet letters
+ *"10" times
  *desc: using for loop to display alphabet number
  *
  *Return: nothing
