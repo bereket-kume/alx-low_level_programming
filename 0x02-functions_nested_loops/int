@@ -1,0 +1,2 @@
+f (lastdigit < 0)
+lastdigit *= -1;
