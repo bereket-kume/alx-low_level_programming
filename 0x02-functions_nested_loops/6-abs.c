@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  *_abs - give us absoulte value of number
- *@int value passed as parameter
+ *@n: value passed as parameter
  *Return: Always 0
  */
-int _abs(int)
+int _abs(int n)
 {
 	if (i > 0)
 		return (i);
