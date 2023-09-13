@@ -4,7 +4,7 @@
  *@i: it is parameter
  *Return: Always 0
  */
-int print_last_digit(int digit)
+int print_last_digit(int i)
 {
 	int digit = i % 10;
 	if (digtit < 0)
