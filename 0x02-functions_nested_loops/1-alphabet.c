@@ -1,9 +1,9 @@
 #include <stdio.h>
+
 /**
  * print_alphabet - print alphabet 
  *
- *main - entry point to the progrma
- *Return: Always (0)
+ *Return: no return 
  */
 void print_alphabet(void)
 {
@@ -14,4 +14,4 @@ void print_alphabet(void)
 		putchar(letter);
 	}
 	putchar('\n');
-};
+}
