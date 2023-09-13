@@ -1,0 +1,3 @@
+lphabet.c:6: ERROR: trailing whitespace
+1-alphabet.c:13: ERROR: trailing whitespace
+total: 3 errors, 0 warnings, 17 lines checked:w

@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- *print_alphabet - print alphabet 
+ *print_alphabet - print alphabet
  *
- *Return: no return 
+ *Return: no return
  */
 void print_alphabet(void)
 {
