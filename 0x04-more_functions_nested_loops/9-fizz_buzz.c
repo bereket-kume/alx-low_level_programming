@@ -24,9 +24,9 @@ int main(void)
 		}
 		else
 		{
-			printf("%d", index);
+			printf("%d ", index);
 		}
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
