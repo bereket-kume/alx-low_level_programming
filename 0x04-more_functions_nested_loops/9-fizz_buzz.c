@@ -26,7 +26,6 @@ int main(void)
 		{
 			printf("%d ", index);
 		}
-		
 	}
 	putchar('\n');
 	return (0);
