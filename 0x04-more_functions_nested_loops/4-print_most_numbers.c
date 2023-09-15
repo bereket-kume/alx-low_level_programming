@@ -8,6 +8,7 @@
 void print_most_numbers(void)
 {
 	int numi;
+
 	for (numi = 48; numi < 58; numi++)
 	{
 		if (numi == 50 || numi == 52)
