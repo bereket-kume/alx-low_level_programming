@@ -7,7 +7,9 @@
 void print_square(int size)
 {
 	int index, jndex;
-	if (size > 0){
+
+	if (size > 0)
+	{
 	for (index = 1; index <= size; index++)
 	{
 		for (jndex = 1; jndex <= size; jndex++)
@@ -16,6 +18,7 @@ void print_square(int size)
 		}
 		_putchar('\n');
 	}
+
 	}
 	else
 	{
