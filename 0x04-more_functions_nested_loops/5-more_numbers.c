@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  *more_numbers - is function to print number
  *
@@ -11,8 +11,8 @@ void more_numbers(void)
 	{
 		for (num = 0; num <= 14; num++)
 		{
-			_putchar(num);
+			printf("%d",num);
 		}
-		_putchar('\n');
+		printf("\n");
 	}
 }
