@@ -12,20 +12,21 @@ int main(void)
 	{
 		if (index % 3 == 0 && index % 5 == 0)
 		{
-			printf("%s ","FizzBuzz");
+			printf("%s ", "FizzBuzz");
 		}
 		else if (index % 3 == 0)
 		{
-			printf("%s ","Fizz");
+			printf("%s ", "Fizz");
 		}
 		else if (index % 5 == 0)
 		{
-			printf("%s ","Buzz");
+			printf("%s ", "Buzz");
 		}
 		else
 		{
 			printf("%d ", index);
 		}
+		printf("%s", "\n");
 	}
 	return (0);
 }
