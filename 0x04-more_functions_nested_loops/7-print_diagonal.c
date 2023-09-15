@@ -8,8 +8,6 @@ void print_diagonal(int n)
 {
 	int jen, index;
 
-	
-	
 		if (n <= 0)
 		{
 			_putchar('\n');
@@ -26,6 +24,5 @@ void print_diagonal(int n)
 			_putchar('\n');
 		}
 		}
-	
 }
 
