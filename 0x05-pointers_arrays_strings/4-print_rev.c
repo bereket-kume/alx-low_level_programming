@@ -8,16 +8,13 @@
  */
 void print_rev(char *s)
 {
-	int arrlen = strlen(s);
-	int i, j;
-	char stemp;
+	int jndex;
 
-	j = arrlen - 1;
-	for (i = 0; i < j; i++, j--)
+	for (jndex = 0; s[jndex] != '\0'; jndex++)
+						;
+	for (jndex = jndex - 1; s[jndex] != '\0'; jndex--)
 	{
-		stemp = s[i];
-		s[i] = s[j];
-		s[j] = stemp;
-		printf("%d\n",s[j]);
+		_putchar(s[jndex]);
 	}
+	_putchar('\n');
 }
