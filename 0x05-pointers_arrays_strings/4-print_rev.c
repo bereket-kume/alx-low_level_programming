@@ -11,7 +11,7 @@ void print_rev(char *s)
 	int jndex;
 
 	for (jndex = 0; s[jndex] != '\0'; jndex++)
-						;
+		;
 	for (jndex = jndex - 1; s[jndex] != '\0'; jndex--)
 	{
 		_putchar(s[jndex]);
