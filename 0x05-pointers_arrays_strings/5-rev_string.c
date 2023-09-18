@@ -1,12 +1,11 @@
 #include "main.h"
 #include <string.h>
-#include <stdio.h>
 /**
- *print_rev - is function that reverse our function
- *@s: is parameter of our function
+ *rev_string - is the function that reverse string
+ *@s: parameter of our function
  *Return: nothing
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int arrlen = strlen(s);
 	int i, j;
@@ -18,6 +17,5 @@ void print_rev(char *s)
 		stemp = s[i];
 		s[i] = s[j];
 		s[j] = stemp;
-		printf("%d\n",s[j]);
 	}
 }
