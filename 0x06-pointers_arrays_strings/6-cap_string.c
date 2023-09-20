@@ -13,7 +13,7 @@ char *cap_string(char *str)
 	str[0] = toupper(str[0]);
 	while (str[i] != '\0')
 	{
-		if (str[i] == ' ' || str[i] == '.' || str[i] == '	')
+		if (str[i] == ' ' || str[i] == '.')
 		{
 			i++;
 		if (str[i] >= 'a' && str[i] <= 'z')
@@ -21,10 +21,15 @@ char *cap_string(char *str)
 			str[i] = toupper(str[i]);
 		}
 		}
+		else if (str[i] == '	')
+		{
+			str[i] = ' ';
+		}
 		else
 		{
 			i++;
 		}
+
 	}
 	return (str);
 }
