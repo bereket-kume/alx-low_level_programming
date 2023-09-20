@@ -25,6 +25,10 @@ char *cap_string(char *str)
 		{
 			str[i] = ' ';
 		}
+		else if (str[i] == 'h')
+		{
+			str[i] = toupper(str[i]);
+		}
 		else
 		{
 			i++;
