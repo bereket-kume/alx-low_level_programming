@@ -21,7 +21,7 @@ char *cap_string(char *str)
 			str[i] = toupper(str[i]);
 		}
 		}
-		else 
+		else
 		{
 			i++;
 		}
