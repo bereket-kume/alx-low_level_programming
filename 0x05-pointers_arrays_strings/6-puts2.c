@@ -8,16 +8,15 @@
  */
 void puts2(char *str)
 {
-	int arrlen = strlen(str);
-	int i, j;
-	char stemp;
+	int a;
 
-	j = arrlen - 1;
-	for (i = 0; i < j; i++, j--)
+	for (a = 0; s[a] != '\0'; a++)
 	{
-		stemp = str[i];
-		str[i] = str[j];
-		str[j] = stemp;
+		if (a % 2 == 0)
+	{
+		_putchar(s[a]);
 	}
+	}
+	_putchar('\n');i
 }
 
