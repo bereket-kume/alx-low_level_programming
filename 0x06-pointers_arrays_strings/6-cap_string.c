@@ -4,15 +4,27 @@
 /**
  *cap_string - is functio that capitalizes
  *@str: is our first function
+ *Return: always str
  */
 char *cap_string(char *str)
 {
-	char *t = strtok(str," ");
-	while (t != NULL)
-       	{
-		t[0] = toupper(t[0]);
-		t = strtok(NULL, " ");
+	int i = 0;
 
+	str[0] = toupper(str[0]);
+	while (str[i] != '\0')
+	{
+		if (str[i] == ' ')
+		{
+			i++;
+		if (str[i] >= 'a' && str[i] <= 'z')
+		{
+			str[i] = toupper(str[i]);
+		}
+		}
+		else 
+		{
+			i++;
+		}
 	}
 	return (str);
 }
