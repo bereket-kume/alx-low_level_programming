@@ -1,5 +1,7 @@
 #include "main.h"
 /**
+ *print_chessboard - is function prints the chessboard.
+ *@a: is parameter of our function
  */
 void print_chessboard(char (*a)[8])
 {
