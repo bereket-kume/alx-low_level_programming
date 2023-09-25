@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  *_strchr - is function that locates a character in a string using pointer
  *@s: is our first parameter
@@ -7,17 +8,9 @@
  */
 char *_strchr(char *s, char c)
 {
-	if (*s == '\n')
-	{
-		return (s);
-	}
-	while (*s)
-	{
-		if (*s == c)
-			return (s);
-		s++;
-	}
-	if (c == '\n')
-		return (s);
-	return ('\0');
+	char *ret;
+	
+	ret = strchr(s, c);
+	return (ret);
+
 }
