@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- *@_memset - that fills memory with a constant byte.
+ *_memset-is that fills memory with a constant byte
  *@s: is our first parameter
  *@n: is our second parameter
  *return: always s
