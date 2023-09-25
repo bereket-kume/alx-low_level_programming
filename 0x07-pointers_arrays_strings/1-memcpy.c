@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  *_memcpy - is fuunction that copies memory area
  *@dest: is first parameter
  *@src: is second parameter
