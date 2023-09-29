@@ -15,9 +15,12 @@ int is_prime_number(int n)
 	for (i = 2; i * i < n; i++)
 	{
 		if (i % 2 == 0)
+		{
 			return (0);
+		}
 		else
+		{
 			return (1);
+		}
 	}
-	return (1);
 }
