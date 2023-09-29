@@ -3,7 +3,7 @@
  *_pow_recursion - is function returns the value of x raised to the power of y
  *@x: is our first parameter
  *@y: is our second parameter
- *Retrun: always
+ *Return: always
  */
 int _pow_recursion(int x, int y)
 {
