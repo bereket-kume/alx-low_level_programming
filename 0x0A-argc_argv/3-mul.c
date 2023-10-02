@@ -51,7 +51,7 @@ int _atoi(char *s)
  * @argc: our first parameter
  * @argv: our second parameter
  *
- * Return: 0 
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
