@@ -1,5 +1,3 @@
-2-strchr.c
-
 #include "main.h"
 #include <stddef.h>
 
