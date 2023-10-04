@@ -1,20 +1,38 @@
-#include "main.h"
-#include <stdio.h>
+#include "notrebloh.h"
 #include <stdlib.h>
-#include <string.h>
+#include <stdio.h>
+
+/**
+ * _strlen - return length of a string
+ *
+ * @s: char type
+ * Return:  length of string
+ */
+int _strlen(char *s)
+{
+	int a;
+
+	for (a = 0; s[a] != '\0'; a++)
+	{
+
+	}
+	return (a);
+}
+
+/**
+ * *_strdup - function to return pointer to string
+ * @str: pointer to string array input
+ * Return: pointer to string created
+ */
 
 char *_strdup(char *str)
 {
-	if(str == NULL)
+	char *ptr;
+	int size;
+	int x;
+
+	if (str == NULL)
 	{
 		return (NULL);
 	}
-	int size;
-	size = strlen(str);
-	char* d;
-	d = (char*)malloc((size + 1) * sizeof(char));
-	strcpy(d, str);
-	return (d);
 }
-
-
