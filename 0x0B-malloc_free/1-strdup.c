@@ -1,38 +1,36 @@
-#include "notrebloh.h"
 #include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * _strlen - return length of a string
+ * _strdup - Duplicates a given string.
+ * @src: The string to be duplicated.
  *
- * @s: char type
- * Return:  length of string
+ * Return: Pointer to the duplicated string (Success), NULL (Error)
  */
-int _strlen(char *s)
+char *_strdup(char *src)
 {
-	int a;
+	char *duplicate;
+	unsigned int i = 0;
 
-	for (a = 0; s[a] != '\0'; a++)
-	{
-
-	}
-	return (a);
-}
-
-/**
- * *_strdup - function to return pointer to string
- * @str: pointer to string array input
- * Return: pointer to string created
- */
-
-char *_strdup(char *str)
-{
-	char *ptr;
-	int size;
-	int x;
-
-	if (str == NULL)
-	{
+	if (src == NULL)
 		return (NULL);
+
+	while (src[i] != '\0')
+		i++;
+
+	duplicate = malloc(sizeof(char) * (i + 1));
+
+	if (duplicate == NULL)
+		return (NULL);
+
+	i = 0;
+	while (src[i] != '\0')
+	{
+		duplicate[i] = src[i];
+		i++;
 	}
+
+	duplicate[i] = '\0';
+
+	return (duplicate);
 }
