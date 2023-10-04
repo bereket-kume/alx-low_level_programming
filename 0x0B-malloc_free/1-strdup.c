@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-#include "main.h"
-=======
->>>>>>> refs/remotes/origin/master
 #include <stdlib.h>
 #include "main.h"
 
