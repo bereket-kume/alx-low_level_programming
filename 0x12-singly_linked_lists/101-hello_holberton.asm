@@ -1,19 +1,21 @@
 ;
 global _start
- 
-section .text:
-_start:
-	mov eax, 0x4
-	mov ebx, 1
-	mov ecx, message
-	mov edx, mess_length
-	int 0x80
-	
-	mov eax, 0x1
-	mov ebx, 0
-	int 0x80
 
 section .data:
-	 message: db "Hello, Holberton", 0xa
-	mess_length equ $-message
+	message: db "Hello, Holberton",0
+
+section .text:
+_start:
+	global main
+	extern printf
+main:
+	sub rsp, 8
+	mov edi, message
+o EDI
+	xor eax, eax
+	call printf
+	
+	add rsp, 8
+	xor eax, eax
+	ret
 
