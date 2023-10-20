@@ -1,4 +1,10 @@
 #include "lists.h"
+/**
+ *add_node - is function that node at the first
+ *@head: is our argument
+ *@str: is our second argument
+ *Return: always new_node
+ */
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new_node;
