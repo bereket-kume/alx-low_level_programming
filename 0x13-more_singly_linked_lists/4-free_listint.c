@@ -1,10 +1,18 @@
 #include "lists.h"
+/**
+ *free_listint - is function that free memory
+ *@head: is parameter
+ *Return: nothing
+ */
 void free_listint(listint_t *head)
 {
-	while (head != NULL)
+	listint_t *amma = head;
+	listint_t *next;
+
+	while (amma != NULL)
 	{
-		head = head->next;
+		next = amma->next;
 		free(head);
-		head = head;
+		amma = next;
 	}
 }
