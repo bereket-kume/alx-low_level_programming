@@ -5,7 +5,7 @@
  *@index: it is index nothing
  *Return: 1
  */
-int set_bit(unsiged long int *n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
 	if (index >= sizeof(unsigned long int) * 8)
 	{
