@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  *read_textfile - is function thaat read from file
- *@filename; is parmaeter
- *@letters; parameter
- *return: everything
+ *@filename: is our parmaeter
+ *@letters: is our parameter
+ *Return: everything
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
