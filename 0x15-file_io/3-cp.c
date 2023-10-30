@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ *main - is the entry point
+ *@argc: is parameter
+ *@argv: is parmeter
+ *Return: something always
+ */
 int main(int argc, char *argv[])
 {
 int file_from, file_to;
