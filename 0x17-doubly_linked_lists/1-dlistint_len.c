@@ -6,11 +6,12 @@
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-	const distint_t *curretNode = h;
-	size_t x = 0
+	const dlistint_t *currentNode = h;
+	size_t x = 0;
 
 	while (currentNode != NULL)
 	{
+		currentNode = currentNode->next;
 		x++;
 	}
 	return (x);
